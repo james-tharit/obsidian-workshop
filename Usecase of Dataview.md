@@ -3,10 +3,10 @@
 table file.mtime as "last modified"
 from "solar"
 ```
-# Table for incompleted notes
+# Table for in-completed notes
 ```dataview
 table file.mtime as "last modified"
-WHERE status = "incompleted"
+WHERE status="incompleted"
 SORT file.mtime DESC
 ```
 
@@ -24,9 +24,16 @@ GROUP BY Tag
 list file.mtime
 from "solar"
 ```
+
+# List for in-completed
+```dataview
+list file.mtime
+from "solar"
+WHERE status="incompleted"
+```
 ---
 
 # Task
 ```dataview
-task
+task FROM "solar"
 ```

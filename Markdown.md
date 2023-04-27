@@ -2,6 +2,9 @@
 tags: [obsidian]
 status: completed
 ---
+
+>Markdown is a lightweight markup language for creating formatted text
+
 # Markdown Headings
 
 ```
